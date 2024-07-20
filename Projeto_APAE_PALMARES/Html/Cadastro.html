@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link href="/home/usuario/Projeto_APAE_PALMARES/Css/cadastro.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    
+    <form>
+        
+        <img class="imagemAPAE" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/LogoAPAE.webp"/>
+        
+        <p class="cadastro">Email institucional</p>
+        <input id="email" type="email">
+        <p class="cadastro">Senha</p>
+        <img onclick="mostrarSenha()" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
+        <input type="password" id="senha">
+        <p class="cadastro">Confirmar senha</p>
+        <img onclick="mostrarSenha2()" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho2" class="olho">
+        <input type="password" id="senha2">
+        <button id="entrar"><a style="color: white; text-decoration: none;"  href="/home/usuario/Projeto_APAE_PALMARES/Html/index.html" onclick="validarCadastro()">ENTRAR</a></button>
+        <button id="cancelar"><a style="color: white; text-decoration: none;" href="/home/usuario/Projeto_APAE_PALMARES/Html/Login.html">CANCELAR</a></button>
+        <br/><br/>
+  
+    </form>
+
+    <script src="/home/usuario/Projeto_APAE_PALMARES/JavaScript/cadastro.js"></script>
+    
+</body>
+</html>

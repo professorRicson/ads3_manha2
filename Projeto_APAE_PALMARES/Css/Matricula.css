@@ -1,0 +1,220 @@
+body{
+    background-image: url("/home/usuario/Projeto_APAE_PALMARES/Imagens/Home_page-0001.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#iconeInput{
+
+    visibility:hidden;
+}
+
+#iconePessoa{
+
+    width: 20%;
+    height: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 12%;
+    margin-left: 13%;
+
+}
+
+form{
+    width: 65%;
+    height: 50%;
+    background-color: white;
+    border-radius: 47px;
+    margin-left: 18%;
+    margin-top: 3%;
+}
+
+h2{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+
+.imagemAPAE{
+    width: 12%;
+    height: 20%;
+    margin-left: 45%;
+    margin-top: -27%;
+    display: flex;
+
+}
+
+#iconeVoltar{
+
+    width: 4%;
+    margin-left: 5%;
+    margin-top: -5%;
+    display: flex;
+
+}
+
+#iconeSair{
+
+    width: 4%;
+    margin-left: 90%;
+    margin-top: 6%;
+    display: flex;
+
+}
+
+#Usuario{
+   
+    margin-left: 12%;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+}
+
+#Date{
+   
+    margin-left: 12% !important;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+}
+
+.opcao{
+    margin-left: 12.5%;
+    margin-top: 3%;
+    display: flex;
+}
+
+#opcao1{
+   
+    margin-left: 1%;
+    margin-top: 0%;
+    display: flex;
+}
+
+#opcao11{
+   
+    margin-left: 1%;
+    margin-top: 0%;
+    display: flex;
+}
+
+#opcao111{
+   
+    margin-left: 1%;
+    margin-top: 0%;
+    display: flex;
+}
+
+.opcao2{
+   
+    margin-left: 30%;
+    margin-top: -4%;
+    display: flex;
+}
+
+.opcao3{
+   
+    margin-left: 46%;
+    margin-top: -4%;
+    display: flex;
+}
+
+.telefone{
+    margin-left: 12%;
+    margin-top: 3%;
+    display: flex;
+    
+}
+
+#Telefone{
+    margin-left: 12%;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    display: flex;
+}
+
+
+.cid{
+
+    margin-left: 58%;
+    margin-top: -10%;
+    display: flex;
+}
+#Responsavel{
+    margin-left: 57%;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    display: flex;
+
+}
+
+#CID{
+    margin-left: 57%;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    display: flex;
+    
+}
+
+
+#Date{
+    margin-left: 57%;
+    width: 30%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    display: flex;
+    
+}
+
+.usuario{
+    margin-left: 12%;
+    margin-top: 5%;
+    
+}
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#proximaPagina{
+    background: #5D90DD;
+    border-radius: 37px;
+    width: 20%;
+    height: 50px;
+    margin-left: 58%;
+    border-color: #5D90DD;
+    color: white;
+    font-weight: bold;
+    margin-top: -7%;
+    display: block;
+    border: 1px solid #5D90;
+    padding: 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    
+}

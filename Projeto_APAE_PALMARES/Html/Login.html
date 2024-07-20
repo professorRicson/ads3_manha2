@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link href="/home/usuario/Projeto_APAE_PALMARES/Css/Login.css" rel="stylesheet"/>
+</head>
+<body>
+    
+    <form >
+        <img class="imagemAPAE" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/LogoAPAE.webp"/>
+        <p class="login">Email institucional</p>
+        <input id="email" type="email">
+        <p class="login">Senha</p>
+        <img onclick="mostrarSenha()" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
+        <input type="password" id="senha">
+        <p class="esqueceuSenha"><a style="color: black; text-decoration: none;" href="/home/usuario/Projeto_APAE_PALMARES/Html/email.html">Esqueceu sua senha?</a></p>
+        <p id="OpcaoCadastro"><a style="color: black; text-decoration: none;" href="/home/usuario/Projeto_APAE_PALMARES/Html/Cadastro.html">Cadastrar</a></p>
+        <p id="OpcaoHome"><a style="color: black; text-decoration: none;" href="/home/usuario/Projeto_APAE_PALMARES/Html/index.html" onclick="validarLogin()">Entrar</a></p>
+        <hr>
+        <br/>
+    </form>
+
+    <script src="/home/usuario/Projeto_APAE_PALMARES/JavaScript/login.js"></script>
+     
+</body>
+</html>

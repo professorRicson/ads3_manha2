@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Matricula</title>
+    <link href="/home/usuario/Projeto_APAE_PALMARES/Css/Matricula.css" rel="stylesheet"/>
+    
+</head>
+<body>
+
+    <img id="iconeSair" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/iconeSair.png"/>
+
+    <img id="iconeVoltar" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/iconeVoltar.png"/>
+    
+    <form >
+        <label id="imageContainer" for="iconeInput"><img id="iconePessoa" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/pessoa.webp"></label>
+        <input id="iconeInput" type="file" accept="image/*">
+        <img class="imagemAPAE" src="/home/usuario/Projeto_APAE_PALMARES/Imagens/LogoAPAE.webp"/>
+        <h2>FICHA DE RENOVAÇÃO <br> DE MATRÍCULA</h2>
+        <p class="usuario">Nome do usuário</p>
+        <input id="Usuario" type="text">
+        <p class="cid">CID</p>
+        <input id="CID" type="text">
+        <p class="usuario">Data de Nascimento</p>
+        <input id="Date" type="date">
+        <p class="cid">Nome do responsável</p>
+        <input id="Responsavel" type="text">
+        <p class="opcao">Vinculo:
+            <input id="opcao1" type="radio" >Mãe
+            <input type="radio"> Pai</p>
+            
+            <p class="opcao2">
+                <input id="opcao11" type="radio" >Irmã(o)
+                <input type="radio"> Tia(o)</p>
+                <p class="opcao3">
+                    <input id="opcao111" type="radio" >Outros
+                    </p>
+                    <p class="telefone">Telefone</p>
+                    <input id="Telefone" type="tel">
+        
+        <button id="proximaPagina" onclick="adicionar()"><a style="color: white; text-decoration: none;" href="/home/usuario/Projeto_APAE_PALMARES/Html/InfoSocioeconomicas.html" onclick="adicionar()">PRÓXIMO</a></button>
+        <br/><br/>
+        
+        <h2>Lista de Contatos</h2>
+        <table id="contatosTable" border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CID</th>
+                    <th>Data Nascimento</th>
+                    <th>Responsavel</th>
+                    <th>Vinculo</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os contatos serão adicionados aqui -->
+            </tbody>
+        </table>
+        
+    </form>
+
+    <script src="/home/usuario/Projeto_APAE_PALMARES/JavaScript/matricula.js"></script>
+    
+</body>
+</html>
