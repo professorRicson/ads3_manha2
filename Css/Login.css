@@ -75,3 +75,25 @@ hr{
     margin-top: -8%;
     display: flex;
 }
+
+@media (max-width: 1920px){
+    hr{
+        width: 0%;
+        height: 70px;
+        margin-top: -5.4%;
+        display: flex;
+    }
+
+    #OpcaoHome{
+        margin-top: -3.5%;
+        margin-left: 55%;
+    }
+
+    .olho {
+        cursor: pointer;
+        left: 56%;
+        margin-top: 0.18%;
+        position: absolute;
+        width: 35px;
+      }
+}

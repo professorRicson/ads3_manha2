@@ -108,13 +108,75 @@ body{
 }
 
 .cards-3{
-
     background-color: white;
     width: 25%;
     height: 480px;
     border-radius: 42px;
     margin-top: -35.5%;
     margin-left: 70%;
+}
+
+@media (max-width: 1920px){
+    .cards{
+
+        background-color: white;
+        width: 25%;
+        height: 550px;
+        border-radius: 42px;
+        margin-top: 13%;
+        margin-left: 5%;
+    
+    }
+
+    .cards-2{
+
+        background-color: white;
+        width: 25%;
+        height: 550px;
+        border-radius: 42px;
+        margin-top: -29.77%;
+        margin-left: 38%;
+        
+    }
+
+    .conteudo2{
+
+        text-align: center;
+        margin-top: 16%;
+        font-size: 19px;
+    
+    }
+
+    .cards-3{
+        background-color: white;
+        width: 25%;
+        height: 480px;
+        border-radius: 42px;
+        margin-top: -29.50%;
+        margin-left: 70%;
+    }
+
+    #OpcaoFuncionario{
+
+        margin-left: 19%;
+        display: flex;
+        margin-top: 5%;
+    
+    }
+    
+    #OpcaoPaciente{
+    
+        margin-left: 12%;
+        margin-top: -2%;
+    
+    }
+    
+    #OpcaoHome{
+        margin-left: 27.65%;
+        margin-top: -1.90%;
+    
+    }
+
 }
 
 
