@@ -1,28 +1,21 @@
-function mostrarSenha(){
-    document.getElementById('olho').addEventListener('mousedown', function() {
-        document.getElementById('senha').type = 'text';
-      });
-      
-      document.getElementById('olho').addEventListener('mouseup', function() {
-        document.getElementById('senha').type = 'password';
-      });
-      
+function mostrarSenha() {
+  const olho = document.getElementById('olho');
+  const senha = document.getElementById('senha');
+  
+  olho.addEventListener('mousedown', () => senha.type = 'text');
+  olho.addEventListener('mouseup', () => senha.type = 'password');
 }
 
-function validarLogin(){
-  var email = document.getElementById('email').value;
-  var senha = document.getElementById('senha').value;
+function validarLogin() {
+  const email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
 
-  if(email == 'admin@gmail.com' && senha == 'admin123'){
-    alert('Seja bem vindo(a)!')
-    location.href = '/home/usuario/Projeto_APAE_PALMARES/Html/index.html';
-  }else{
-    alert('Usuário ou senha incorreta!')
-    document.getElementById('OpcaoHome').onclick = function(){return false};
-    location.href = '/home/usuario/Projeto_APAE_PALMARES/Html/Login.html';
-                    
-}}
-
-
-
-
+  if (email === 'admin@gmail.com' && senha === 'admin123') {
+      alert('Seja bem-vindo(a)!');
+      location.href = '../Html/index.html';
+  } else {
+      alert('Usuário ou senha incorreta!');
+      // Remover event listener no elemento específico não é necessário se o redirecionamento já está sendo feito
+      location.href = '../Html/Login.html';
+  }
+}
