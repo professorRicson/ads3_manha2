@@ -12,10 +12,10 @@ function validarLogin() {
 
   if (email === 'admin@gmail.com' && senha === 'admin123') {
       alert('Seja bem-vindo(a)!');
-      location.href = '../Html/index.html';
+      location.href = 'index.html';
   } else {
       alert('Usuário ou senha incorreta!');
       // Remover event listener no elemento específico não é necessário se o redirecionamento já está sendo feito
-      location.href = '../Html/Login.html';
+      location.href = 'Login.html';
   }
 }

@@ -44,7 +44,7 @@ function validarCadastro() {
   }
 
   // Se todas as validações passarem, redireciona para a página principal
-  location.href = '../Html/index.html';
+  location.href = 'index.html';
 }
 
 

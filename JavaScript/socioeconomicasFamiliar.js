@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (iconeSair) {
         iconeSair.addEventListener('click', () => {
-            window.location.href = '../Html/Login.html'; 
+            window.location.href = 'Login.html'; 
         });
     }
 
     if (iconeVoltar) {
         iconeVoltar.addEventListener('click', () => {
-            window.location.href = '../Html/Matricula.html';
+            window.location.href = 'Matricula.html';
         });
     }
 });
@@ -127,7 +127,7 @@ function adicionar() {
     console.log(dadosFormulario);
 
     // Redirecionar ou realizar outra ação se necessário
-    window.location.replace("../Html/InformacaoEscolar.html");
+    window.location.replace("InformacaoEscolar.html");
 }
 
 // Carregar contatos e dados do formulário quando a página for carregada

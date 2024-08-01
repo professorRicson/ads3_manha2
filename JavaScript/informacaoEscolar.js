@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const iconeVoltar = document.getElementById('iconeVoltar');
 
     iconeSair.addEventListener('click', () => {
-        window.location.href = '../Html/Login.html'; 
+        window.location.href = 'Login.html'; 
     });
 
     iconeVoltar.addEventListener('click', () => {
-        window.location.href = '../Html/InfoSocioeconomicas.html';
+        window.location.href = 'InfoSocioeconomicas.html';
     });
 });
 
@@ -120,7 +120,7 @@ function adicionar() {
     console.log(dadosFormulario);
 
     // Redirecionar ou realizar outra ação se necessário
-    window.location.replace("../Html/tiposAtendimentos.html");
+    window.location.replace("tiposAtendimentos.html");
 }
 
 // Carregar contatos e dados do formulário quando a página for carregada

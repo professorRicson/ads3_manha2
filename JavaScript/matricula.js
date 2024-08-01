@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    redirect('iconeSair', '../Html/Login.html');
-    redirect('iconeVoltar', '../Html/ListaPacientes.html');
+    redirect('iconeSair', 'Login.html');
+    redirect('iconeVoltar', 'ListaPacientes.html');
 });
 
 
@@ -131,7 +131,7 @@ function adicionar() {
     console.log(dadosFormulario)
 
     // Redirecionar ou realizar outra ação se necessário
-    window.location.replace("../Html/InfoSocioeconomicas.html");
+    window.location.replace("InfoSocioeconomicas.html");
 }
 
 // Carregar contatos e dados do formulário quando a página for carregada
