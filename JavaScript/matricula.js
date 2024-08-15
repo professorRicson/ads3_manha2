@@ -19,7 +19,7 @@ function atualizarImagem() {
     
     imageContainer.innerHTML = imagemSalva 
         ? `<img src="${imagemSalva}" style="max-width: 20%; margin-top: 12%; margin-left: 13%;">` 
-        : '<label for="iconeInput"><img id="iconePessoa" src="../Imagens/pessoa.webp"></label>';
+        : '<label for="iconeInput"><img id="iconePessoa" src="Imagens/pessoa.webp"></label>';
 }
 
 function salvarImagem(event) {
