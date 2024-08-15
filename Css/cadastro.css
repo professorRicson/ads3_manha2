@@ -1,10 +1,10 @@
-body{
+@media (max-width: 1920px)
+{
+    body{
     background-image: url("../Imagens/Login_page-0001.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    
 }
-
 form{
     width: 50%;
     height: 50%;
@@ -103,29 +103,103 @@ p{
     
 }
 
-@media (max-width: 1920px){
+}
+
+@media (max-width: 926px){
+    body{
+        background-image: url("../Imagens/Login_page-0001.jpg");
+        background-repeat: no-repeat;
+        background-size: 150% 1000px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+        
+    }
+
+    form{
+        width: 75%;
+        height: 50%;
+        background-color: white;
+        border-radius: 47px;
+        margin-left: 12%;
+        margin-top: 44%;
+    }
+
+    #email{
+   
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+    }
+    
+    #senha{
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+        
+    }
+    
+    #senha2{
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+        
+    }
+    
+    .olho {
+        cursor: pointer;
+        left: 58%;
+        margin-top: 2.50%;
+        position: absolute;
+        width: 28px;
+      }
+    
+    .cadastro{
+        margin-left: 30%;
+        margin-top: 5%;
+        font-size: small;
+        
+    }
+
     #cancelar{
         background: #5D90DD;
         border-radius: 37px;
-        width: 20%;
-        height: 50px;
-        margin-left: 53%;
+        width: 28%;
+        height: 42px;
+        margin-left: 51%;
         border-color: #5D90DD;
         color: white;
         font-weight: bold;
-        margin-top: -5.4%;
+        margin-top: -13.5%;
         display: block;
         border: 1px solid #5D90;
-        padding: 10px 10px;
+        font-size: small;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         
     }
 
-    .olho {
-        cursor: pointer;
-        left: 56%;
-        margin-top: 0.3%;
-        position: absolute;
-        width: 35px;
-      }
+    #entrar{
+        background: #5D90DD;
+        border-radius: 37px;
+        width: 25%;
+        height: 42px;
+        margin-left: 24%;
+        border-color: #5D90DD;
+        color: white;
+        font-weight: bold;
+        margin-top: 5%;
+        font-size: small;
+        border: 1px solid #5D90;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+
 }
