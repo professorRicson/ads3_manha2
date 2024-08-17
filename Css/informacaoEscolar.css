@@ -5,6 +5,27 @@ body{
     
 }
 
+#OpcaoFuncionario{
+
+    margin-left: 47%;
+    display: flex;
+    margin-top: -63%;
+
+}
+
+#OpcaoPaciente{
+
+    margin-left: 39%;
+    margin-top: -2.65%;
+
+}
+
+#OpcaoHome{
+    margin-left: 56.5%;
+    margin-top: -2.60%;
+
+}
+
 #iconeInput{
     visibility:hidden;
 }
@@ -26,7 +47,7 @@ form{
     background-color: white;
     border-radius: 47px;
     margin-left: 18%;
-    margin-top: -3%;
+    margin-top: 5%;
 }
 
 h2{
@@ -115,20 +136,6 @@ h2{
     display: flex;
 }
 
-.opcao1{
-   
-    margin-left: 12%;
-    margin-top: 1%;
-    display: flex;
-}
-
-.opcao2{
-   
-    margin-left: 20%;
-    margin-top: -3.5%;
-    display: flex;
-}
-
 .opcao3{
    
     margin-left: 58%;
@@ -136,81 +143,18 @@ h2{
     display: flex;
 }
 
-.opcao4{
-
-    margin-left: 58%;
-    margin-top: -29%;
-}
-
-.opcao5{
-
-    margin-left: 73%;
-    margin-top: -6%;
-    display: flex;
-}
-
-.opcao6{
-   
-    margin-left: 58%;
-    margin-top: 2%;
-    display: flex;
-}
-
 .opcao7{
 
     margin-left: 58%;
-    margin-top: -20%;
-}
-
-.opcao8{
-
-    margin-left: 73%;
-    margin-top: -3.75%;
-    display: flex;
+    margin-top: -23%;
+    
 }
 
 .opcaoS22{
-    margin-left: 62%;
+    margin-left: 60%;
     margin-top: -2%;
     display: flex;
 
-}
-
-.opcaoN22{
-    margin-left: 76%;
-    margin-top: -2%;
-    display: flex;
-
-}
-
-.opcaoS2{
-
-    margin-left: 62%;
-    margin-top: -2%;
-    display: flex;
-
-}
-
-.opcaoN2{
-
-    margin-left: 76%;
-    margin-top: -2%;
-    display: flex;
-
-}
-
-.opcaoS{
-
-    margin-left: 15%;
-    margin-top: -2%;
-    display: flex;
-}
-
-.opcaoN{
-
-    margin-left: 23%;
-    margin-top: -2%;
-    display: flex;
 }
 
 .telefone{
@@ -235,7 +179,7 @@ h2{
 .cid{
 
     margin-left: 58%;
-    margin-top: -10%;
+    margin-top: -4%;
     display: flex;
 }
 
@@ -256,7 +200,7 @@ h2{
     
 }
 
-p{
+*{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 

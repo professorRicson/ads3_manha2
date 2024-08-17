@@ -18,19 +18,19 @@
         <img class="imagemAPAE" src="Imagens/LogoAPAE.webp"/>
         <h2>INFORMAÇÃO ESCOLAR</h2>
         <p class="usuario">O usuário está matriculado na <br> rede regular de ensino?</p>
-        <input class="opcao1" name="matriculado" type="radio" value="Sim"><p class="opcaoS">Sim</p>
-        <input class="opcao2" name="matriculado" type="radio" value="Não"> <p class="opcaoN">Não</p>
- 
+        <input type="radio" name="matriculado" value="Sim" style="margin-left: 12%;">Sim
+        <input type="radio" name="matriculado" value="Não">Não
+        
         <p class="opcao">A criança/adolescente possui <br> mediador para auxiliar nas <br> atividades dentro da escola</p>
-        <input class="opcao1" name="mediador" type="radio" value="Sim"><p class="opcaoS">Sim</p>
-        <input class="opcao2" name="mediador" type="radio" value="Não"> <p class="opcaoN">Não</p>
+        <input type="radio" name="mediador" value="Sim" style="margin-left: 12%;">Sim
+        <input type="radio" name="mediador" value="Não">Não
         
         <p class="serie">Série</p>
         <input id="Serie" type="text">
         
         <p class="opcao3">A escola é</p>
-        <input class="opcao7" name="escolaTipo" type="radio" value="Particular"><p class="opcaoS22">Particular</p>
-        <input class="opcao8" name="escolaTipo" type="radio" value="Pública"><p class="opcaoN22">Pública</p><br>
+        <input name="escolaTipo" style="margin-left: 58%;" type="radio" value="Particular">Particular
+        <input name="escolaTipo" type="radio" value="Pública">Pública
 
         <br><br><br><br> <p class="cid">Nome da escola</p>
         <input id="CID" type="text"><br><br>
@@ -48,7 +48,12 @@
 
         <script src="JavaScript/informacaoEscolar.js"></script>
    
-    </form>
+    </form> 
+
+    <p id="OpcaoFuncionario"><a href="CadastrarFuncionario.html">Funcionários</a></p>
+    <p id="OpcaoPaciente"><a href="ListaPacientes.html">Pacientes</a></p>
+    <p id="OpcaoHome"><a href="index.html">Home</a></p>
+
     
 </body>
 </html>

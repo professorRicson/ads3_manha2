@@ -81,5 +81,7 @@ window.onload = function() {
     const botaoFinalizar = document.getElementById('proximo');
     if (botaoFinalizar) {
         botaoFinalizar.addEventListener('click', adicionar);
+         // Redirecionar ou realizar outra ação se necessário
+        window.location.replace("ListaPacientes.html");
     }
 };

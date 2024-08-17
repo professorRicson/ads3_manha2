@@ -5,6 +5,26 @@ body{
     
 }
 
+#OpcaoFuncionario{
+
+    margin-left: 47%;
+    display: flex;
+    margin-top: -63%;
+
+}
+
+#OpcaoPaciente{
+
+    margin-left: 39%;
+    margin-top: -2.65%;
+
+}
+
+#OpcaoHome{
+    margin-left: 56.5%;
+    margin-top: -2.60%;
+
+}
 
 #iconePessoa{
 
@@ -23,7 +43,7 @@ form{
     background-color: white;
     border-radius: 47px;
     margin-left: 18%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 
 h2{

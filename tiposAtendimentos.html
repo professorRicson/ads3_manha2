@@ -18,36 +18,52 @@
         <img class="imagemAPAE" src="Imagens/LogoAPAE.webp"/>
         <h2>TIPOS DE ATENDIMENTOS</h2>
 
-        <p class="opcao" style="margin-left: 25%;">Fisioterapia</p>
-        <input id="opcao1" type="radio" name="Fisioterapia" value="Sim" style="margin-left: 25%;"><p class="opcaoS" style="margin-left: 28%;">Sim</p>
-        <input id="opcao2" type="radio" name="Fisioterapia" value="Não" style="margin-left: 32%;"> <p class="opcaoN" style="margin-left: 35%;">Não</p>
+        <div style="margin-left: 10%;">
+
+        <p class="opcao">Fisioterapia</p>
+        <input type="radio" name="Fisioterapia" value="Sim" style="margin-left: 13%;">Sim
+        <input type="radio" name="Fisioterapia" value="Não">Não
+
+        <p class="opcao">Pintura</p>
+        <input type="radio" name="Pintura" value="Sim"  style="margin-left: 13%;">Sim
+        <input type="radio" name="Pintura" value="Não">Não
+
+        <p class="opcao">Musicoterapia</p>
+        <input type="radio" name="Musicoterapia" value="Sim" style="margin-left: 13%;">Sim
+        <input type="radio" name="Musicoterapia" value="Não">Não
+
+    </div>
+
+    <div style="margin-left: 64%; margin-top:-32%;">
+
+        <p class="opcao3" >Psicologia</p>
+        <input type="radio" name="Psicologia" value="Sim" style="margin-top: 1%;">Sim
+        <input type="radio" name="Psicologia" value="Não">Não
+
+        <p class="opcao3" >Psicopedagoga</p>
+        <input type="radio" name="Psicopedagoga" value="Sim"  style="margin-top: 1%;">Sim
+        <input type="radio" name="Psicopedagoga" value="Não">Não
+
+        <p class="opcao3" >Educação física</p>
+        <input type="radio" name="Educação física" value="Sim"  style="margin-top: 1%;">Sim
+        <input type="radio" name="Educação física" value="Não">Não
+
+    </div>
+
+
         
-        <p class="opcao" style="margin-left: 25%;">Pintura</p>
-        <input id="opcao1" type="radio" name="Pintura" value="Sim" style="margin-left: 25%;"><p class="opcaoS" style="margin-left: 28%;">Sim</p>
-        <input id="opcao2" type="radio" name="Pintura" value="Não" style="margin-left: 32%;"> <p class="opcaoN" style="margin-left: 35%;">Não</p>
-
-        <p class="opcao" style="margin-left: 25%;">Musicoterapia</p>
-        <input id="opcao1" type="radio" name="Musicoterapia" value="Sim" style="margin-left: 25%;"><p class="opcaoS" style="margin-left: 28%;">Sim</p>
-        <input id="opcao2" type="radio" name="Musicoterapia" value="Não" style="margin-left: 32%;"> <p class="opcaoN" style="margin-left: 35%;">Não</p>
-
-        <p id="opcao3" style="margin-top: -26%;">Psicologia</p>
-        <input id="opcao7" type="radio" name="Psicologia" value="Sim" style="margin-left: 58%;"><p class="opcaoS22" style="margin-left: 61%; margin-top: -2%;">Sim</p>
-        <input id="opcao8" type="radio" name="Psicologia" value="Não" style="margin-left: 66%;" ><p class="opcaoN22" style="margin-left: 69%; margin-top: -2%;">Não</p><br>
-
-        <p id="opcao3" style="margin-top: -2%;">Psicopedagogia</p>
-        <input id="opcao7" type="radio" name="Psicopedagogia" value="Sim" style="margin-left: 58%;"><p class="opcaoS22" style="margin-left: 61%; margin-top: -2%;">Sim</p>
-        <input id="opcao8" type="radio" name="Psicopedagogia" value="Não" style="margin-left: 66%;" ><p class="opcaoN22" style="margin-left: 69%; margin-top: -2%;">Não</p><br>
-
-        <p id="opcao3" style="margin-top: -1%;">Educação física</p>
-        <input id="opcao7" type="radio" name="Educação física" value="Sim" style="margin-left: 58%;"><p class="opcaoS22" style="margin-left: 61%; margin-top: -2%;">Sim</p>
-        <input id="opcao8" type="radio" name="Educação física" value="Não" style="margin-left: 66%;" ><p class="opcaoN22" style="margin-left: 69%; margin-top: -2%;">Não</p><br>
-
         <br><br><br><br><br>
         
         <button id="proximo" onclick="adicionar()">FINALIZAR</button>
         <br/><br/>
 
     </form>
+
+
+    <p id="OpcaoFuncionario"><a href="CadastrarFuncionario.html">Funcionários</a></p>
+    <p id="OpcaoPaciente"><a href="ListaPacientes.html">Pacientes</a></p>
+    <p id="OpcaoHome"><a href="index.html">Home</a></p>
+
 
     <script src="JavaScript/tipoAtendimento.js"></script>
     

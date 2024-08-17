@@ -1,259 +1,208 @@
-@media (max-width: 1920px){.imagemAPAE{
-    width: 10%;
-    height: 180px;
-    margin-left: 45%;
-    margin-top: 5%;
+@media (max-width: 1920px)
+{
+
+    .listaImg{
+        width: 100%;
+        height: 270px;
+        
+    }
+  
+form{
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border-radius: 47px;
+    margin-left: 24%;
+    margin-top: 10%;
+    border: 1px solid black;
+}
+.imagemAPAE{
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
 
 }
-
-#iconeVoltar{
-
-    width: 4%;
-    margin-left: 5%;
-    margin-top: -5%;
-    display: flex;
-
+#email{
+   
+    margin-left: 27%;
+    width: 45%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
 }
 
-#iconeSair{
-
-    width: 4%;
-    margin-left: 90%;
-    margin-top: -8.5%;
-    display: flex;
-
-}
-
-.listaImg{
-    width: 97%;
-    height: 470px;
+#senha{
+    margin-left: 27%;
+    width: 45%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
     
 }
 
-#iconelataLixo{
-
-    width: 4%;
-    margin-top: 1%;
-    margin-left: 95%;
-
+#senha2{
+    margin-left: 27%;
+    width: 45%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    
 }
 
-h1{
-    margin-top: 15%;
-    margin-left: 39%;
-}
+.olho {
+    cursor: pointer;
+    left: 56%;
+    margin-top: 0.75%;
+    position: absolute;
+    width: 35px;
+  }
 
-#OpcaoFuncionario{
-
-    margin-left: 19%;
-    display: flex;
-    margin-top: -13%;
-
-}
-
-#OpcaoPaciente{
-
-    margin-left: 12%;
-    margin-top: -2.52%;
-
-}
-
-#OpcaoHome{
-    margin-left: 27.65%;
-    margin-top: -2.85%;
-
-}
-
-#iconelataLixo2{
-
-    width: 4%;
-    margin-top: 1%;
-    margin-left: 95%;
-
-}
-
-#iconelataLixo3{
-
-    width: 4%;
-    margin-top: 1%;
-    margin-left: 95%;
-
+.cadastro{
+    margin-left: 30%;
+    margin-top: 5%;
+    
 }
 
 p{
-    margin-top: -3.5%;
-    margin-left: 4%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
-#iconealterar{
-
-    width: 4%;
-    margin-top: -4.5%;
-    margin-left: 89%;
-    display: flex;
-
-}
-
-.ListaFuncionario{
-
-    height: 45px;
-    margin-top: 5%;
-    border-radius: 7px;
-    border: 1px solid rgb(65, 61, 61);
-    padding: 7px 7px;
-    width: 50%;
-    margin-left: 25%;
- 
-} 
-
-#proximo{
+#entrar{
     background: #5D90DD;
     border-radius: 37px;
     width: 20%;
     height: 50px;
-    margin-left: 41% !important;
+    margin-left: 30%;
     border-color: #5D90DD;
     color: white;
     font-weight: bold;
     margin-top: 5%;
+    border: 1px solid #5D90;
+    padding: 10px 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#cancelar{
+    background: #5D90DD;
+    border-radius: 37px;
+    width: 20%;
+    height: 50px;
+    margin-left: 53%;
+    border-color: #5D90DD;
+    color: white;
+    font-weight: bold;
+    margin-top: -7.5%;
     display: block;
     border: 1px solid #5D90;
     padding: 10px 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
-}}
+}
+
+}
 
 @media (max-width: 926px){
-    .imagemAPAE{
-        width: 20%;
-        height: 120px;
-        margin-left: 42%;
-        margin-top: 25%;
-        display: flex;
-        margin-bottom: 0;
-    
-    }
-
-    #iconeVoltar{
-
-        width: 7%;
-        margin-left: 5%;
-        margin-top: -7.5%;
-        display: flex;
-    
-    }
-    
-    #iconeSair{
-    
-        width: 7%;
-        margin-left: 90%;
-        margin-top: -25.5%;
-        display: flex;
-    
-    }
-
-    h1{
+    body{
+        background-image: url("../Imagens/Login_page-0001.jpg");
+        background-repeat: no-repeat;
+        background-size: 150% 1000px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 24px;
-        margin-left: 28%;
-        margin-top: 50%;
-    }
     
-    #proximo{
-    background: #5D90DD;
-    border-radius: 37px;
-    width: 20%;
-    height: 50px;
-    margin-left: 41% !important;
-    border-color: #5D90DD;
-    color: white;
-    font-weight: bold;
-    margin-top: 5%;
-    display: block;
-    border: 1px solid #5D90;
-    padding: 10px 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
-}
-    #ListaFuncionario{
-
-        height: 45px;
-        margin-top: 12%;
-        border-radius: 7px;
-        border: 1px solid rgb(65, 61, 61);
-        width: 50%;
-        margin-left: 25%;
-     
-    }
-
-    .listaImg{
-        width: 98%;
-        height: 180px;
         
     }
 
-    #OpcaoFuncionario{
-
-        margin-left: 41%;
-        margin-top: -45%;
-        display: flex;
-    
-    }
-    
-    #OpcaoPaciente{
-    
+    form{
+        width: 75%;
+        height: 50%;
+        background-color: white;
+        border-radius: 47px;
         margin-left: 12%;
-        margin-top: -8.5%;
-    
+        margin-top: 44%;
     }
-    
-    #OpcaoHome{
-        margin-left: 75%;
-        margin-top: -9%;
-    
-    }
-    
-    #iconelataLixo{
 
-        width: 9%;
+    #email{
+   
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+    }
+    
+    #senha{
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+        
+    }
+    
+    #senha2{
+        margin-left: 27%;
+        width: 45%;
+        height: 35px;
+        margin-top: -1%;
+        border-radius: 37px;
+        border: 1px solid rgb(65, 61, 61);
+        
+    }
+    
+    .olho {
+        cursor: pointer;
+        left: 58%;
+        margin-top: 2.50%;
+        position: absolute;
+        width: 28px;
+      }
+    
+    .cadastro{
+        margin-left: 30%;
         margin-top: 5%;
-        margin-left: 92%;
-    
+        font-size: small;
+        
     }
-    
-    #iconelataLixo2{
-    
-        width: 9%;
+
+    #cancelar{
+        background: #5D90DD;
+        border-radius: 37px;
+        width: 28%;
+        height: 42px;
+        margin-left: 51%;
+        border-color: #5D90DD;
+        color: white;
+        font-weight: bold;
+        margin-top: -13.5%;
+        display: block;
+        border: 1px solid #5D90;
+        font-size: small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+
+    #entrar{
+        background: #5D90DD;
+        border-radius: 37px;
+        width: 25%;
+        height: 42px;
+        margin-left: 24%;
+        border-color: #5D90DD;
+        color: white;
+        font-weight: bold;
         margin-top: 5%;
-        margin-left: 92%;
-    
-    }
-    
-    #iconelataLixo3{
-    
-        width: 9%;
-        margin-top: 5%;
-        margin-left: 92%;
-    
-    }
-
-    #iconealterar{
-
-        width: 9%;
-        margin-top: -10%;
-        margin-left: 82%;
-        display: flex;
-    
-    }
-
-    p{
-        margin-top: -8%;
-        margin-left: 4%;
+        font-size: small;
+        border: 1px solid #5D90;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
     }
-
 
 }

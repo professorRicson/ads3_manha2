@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de funcionario</title>
+    <link href="Css/funcionario.css" rel="stylesheet"/>
+    
+</head>
+<body>
+    
+    <form>
+        
+        <img class="imagemAPAE" src="Imagens/LogoAPAE.webp"/>
+        
+        <p class="cadastro">Nome completo</p>
+        <input id="email" type="text">
+        <p class="cadastro">Email institucional</p>
+        <input id="email" type="email">
+        <p class="cadastro">Telefone</p>
+        <input id="email" type="tel">
+        <p class="cadastro">Senha</p>
+        <img onclick="mostrarSenha()" src="https://cdn0.iconfinder.com/data/icons/ui-icons-pack/100/ui-icon-pack-14-512.png" id="olho" class="olho">
+        <input type="password" id="senha">
+        <button id="entrar"><a style="color: white; text-decoration: none;"  href="index.html" onclick="validarCadastro()">FINALIZAR</a></button>
+        <button id="cancelar"><a style="color: white; text-decoration: none;" href="Login.html">CANCELAR</a></button>
+        <br/><br/>
+  
+    </form>
+
+    <img class="listaImg" src="Imagens/Lista.jpg" />
+
+
+    <script src="JavaScript/cadastro.js"></script>
+    
+</body>
+</html>

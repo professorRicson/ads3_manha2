@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Lista Funcionários</title>
-    <link href="Css/funcionario.css" rel="stylesheet"/>
+    <link href="Css/paciente.css" rel="stylesheet"/>
 
 </head>
 <body>
@@ -17,44 +17,45 @@
 
     <br><br><br><br><br><br>
 
-    <p id="OpcaoFuncionario"><a href="ListaFuncionario.html">Funcionários</a></p>
+    <p id="OpcaoFuncionario"><a href="CadastrarFuncionario.html">Funcionários</a></p>
     <p id="OpcaoPaciente"><a href="ListaPacientes.html">Pacientes</a></p>
     <p id="OpcaoHome"><a href="index.html">Home</a></p>
    
-    <h1>Lista de Funcionários</h1>
-   
-  <div class="ListaFuncionario">
 
-    <img id="iconelataLixo" src="Imagens/altera.png"/>
-    <img id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
+    <h1>Lista de Funcionários</h1>
+
+  <div id="ListaPacientes">
+
+    <img id="iconelataLixo"  src="Imagens/altera.png"/>
+    <img onclick="remover()" id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
 
     <p>CHIARA</p>
     
   </div> 
 
-  <div class="ListaFuncionario">
+  <div id="ListaPacientes">
 
     <img id="iconelataLixo2" src="Imagens/altera.png"/>
-    <img id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
+    <img class="apagar" id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
 
     <p>DAISE</p>
     
   </div> 
 
-  <div class="ListaFuncionario">
+  <div id="ListaPacientes">
 
     <img id="iconelataLixo3" src="Imagens/altera.png"/>
-    <img id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
+    <img onclick="remover()"  id="iconealterar" src="Imagens/cone-de-lata-de-lixo-plana.webp" onclick="remover()"/>
 
     <p>JOÃO</p>
     
   </div> 
 
-  <button id="proximo" style="margin-left: 37%;"><a style="color: white; text-decoration: none;"style="color: white; text-decoration: none;" href="Matricula.html">ADICIONAR</a></button>
+  <button id="proximo" style="margin-left: 37%;"><a style="color: white; text-decoration: none;"style="color: white; text-decoration: none;" href="CadastrarFuncionario.html">ADICIONAR</a></button>
   
   <img class="listaImg" src="Imagens/Lista.jpg" />
 
-  <script src="JavaScript/listaFuncionarios.js"></script>
+  <script src="JavaScript/listarFuncionario.js"></script>
  
 </body>
 </html>
