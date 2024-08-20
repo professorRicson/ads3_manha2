@@ -1,6 +1,45 @@
 @media (max-width: 1920px)
 {
 
+    #iconeVoltar{
+
+        width: 4%;
+        margin-left: 5%;
+        margin-top: -5%;
+        display: flex;
+    
+    }
+    
+    #iconeSair{
+    
+        width: 4%;
+        margin-left: 90%;
+        margin-top: 6%;
+        display: flex;
+    
+    }
+
+    #OpcaoFuncionario{
+    
+        margin-left: 45%;
+        display: flex;
+        margin-top: -2%;
+    
+    }
+    
+    #OpcaoPaciente{
+    
+        margin-left: 37%;
+        margin-top: -2.65%;
+    
+    }
+    
+    #OpcaoHome{
+        margin-left: 55%;
+        margin-top: -2.60%;
+    
+    }
+
     .listaImg{
         width: 100%;
         height: 270px;
@@ -13,7 +52,7 @@ form{
     background-color: white;
     border-radius: 47px;
     margin-left: 24%;
-    margin-top: 10%;
+    margin-top: 7%;
     border: 1px solid black;
 }
 .imagemAPAE{
@@ -23,7 +62,30 @@ form{
     margin-top: 10%;
 
 }
+
+#nome{
+   
+    margin-left: 27%;
+    width: 45%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+}
+
 #email{
+    margin-left: 27%;
+    width: 45%;
+    height: 45px;
+    margin-top: -1%;
+    border-radius: 37px;
+    border: 1px solid rgb(65, 61, 61);
+    padding: 7px 7px;
+    
+}
+
+#telefone{
    
     margin-left: 27%;
     width: 45%;
@@ -45,21 +107,10 @@ form{
     
 }
 
-#senha2{
-    margin-left: 27%;
-    width: 45%;
-    height: 45px;
-    margin-top: -1%;
-    border-radius: 37px;
-    border: 1px solid rgb(65, 61, 61);
-    padding: 7px 7px;
-    
-}
-
 .olho {
     cursor: pointer;
-    left: 56%;
-    margin-top: 0.75%;
+    left: 57%;
+    margin-top: 0.40%;
     position: absolute;
     width: 35px;
   }
