@@ -55,3 +55,16 @@ document.addEventListener('DOMContentLoaded', function() {
         botao.addEventListener('click', adicionar);
     }
 });
+
+// Função para adicionar dados ao localStorage
+function adicionarDados() {
+    // Obtém os dados do formulário
+    const usuario = document.getElementById('Usuario').value;
+    
+    // Armazena os dados no localStorage
+    localStorage.setItem('usuarioNome', usuario);
+
+    // Redireciona para a página de lista de pacientes
+    window.location.href = 'ListaPacientes.html';
+}
+

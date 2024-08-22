@@ -60,3 +60,19 @@ window.onload = function() {
     carregarPacientes();
 };
 
+// Recupera o nome do usuário armazenado na sessão
+const usuarioNome = sessionStorage.getItem('usuarioNome');
+
+// Exibe o nome do usuário no elemento com o id "ListaPacientes"
+document.getElementById('ListaPacientes').innerHTML = `
+<div class="ListaPacientes">
+            <img id="iconelataLixo" onclick="redirecionarParaCadastrarFuncionario()" src="Imagens/altera.png"/>
+            <img id="iconealterar" onclick="remover(event)" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
+            <p>${usuarioNome}</p>
+        </div>
+
+`;
+
+// Limpa o item da sessão para que não persista em futuras visitas
+sessionStorage.removeItem('usuarioNome');
+
