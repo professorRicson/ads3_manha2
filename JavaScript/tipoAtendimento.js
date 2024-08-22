@@ -15,6 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+function proximaPagina(){
+
+    // Redireciona para a página desejada
+   window.location.href = 'listarFuncionarios.html'; // Substitua 'paginaDestino.html' pelo URL da página para a qual deseja redirecionar
+
+
+   // Adiciona um ouvinte de evento para garantir que o código só execute após o carregamento completo da página
+   document.addEventListener('DOMContentLoaded', function() {
+       // Obtém o botão pelo ID e adiciona um listener de clique
+       const botao = document.getElementById('proximo');
+       if (botao) {
+           botao.addEventListener('click', adicionar);
+       }
+   });
+
+}
+
+
 // Função para carregar os dados do formulário do localStorage
 function carregarDados() {
     const dados = JSON.parse(localStorage.getItem('dadosFormulario')) || {};

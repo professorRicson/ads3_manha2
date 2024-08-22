@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'iconeVoltar', href: 'index.html' },
         { id: 'iconeVoltar2', href: 'CadastrarFuncionario.html' },
         { id: 'iconelataLixo', href: 'CadastrarFuncionario.html' },
-        { id: 'iconelataLixo2', href: 'CadastrarFuncionario.html' },
-        { id: 'iconelataLixo3', href: 'CadastrarFuncionario.html' }
+  
     ];
 
     elements.forEach(({ id, href }) => {
@@ -18,45 +17,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-function remover(){
-    const item = document.querySelector("div");
-    const container = item.parentNode;
-    container.removeChild(item);
 
+function remover(event) {
+    // Obtém o item a ser removido
+    const item = event.target.closest('.ListaPacientes');
+    if (item) {
+        item.remove();
+    }
 }
 
-// Função para carregar a lista de pacientes do localStorage e adicionar à página
-function carregarPacientes() {
-    const pacientes = JSON.parse(localStorage.getItem('contatos')) || [];
-    const listaPacientesContainer = document.getElementById('listaPacientesContainer');
+function exibirFuncionarios() {
+    const lista = document.getElementById('ListaPacientes');
+    const funcionarios = JSON.parse(localStorage.getItem('funcionarios')) || [];
 
-    listaPacientesContainer.innerHTML = ''; // Limpar o contêiner antes de adicionar novos pacientes
-
-    pacientes.forEach(paciente => {
-        const pacienteDiv = document.createElement('div');
-        pacienteDiv.classList.add('paciente');
-
-        const pacienteNome = document.createElement('p');
-        pacienteNome.textContent = paciente.usuario; // Ajuste se necessário
-
-        const iconeAltera = document.createElement('img');
-        iconeAltera.src = 'Imagens/altera.png';
-        iconeAltera.id = 'iconelataLixo'; // Adicionar estilos se necessário
-        
-        const iconeLixo = document.createElement('img');
-        iconeLixo.src = 'Imagens/cone-de-lata-de-lixo-plana.webp';
-        iconeLixo.classList.add('apagar'); // Adicionar estilos se necessário
-        
-        pacienteDiv.appendChild(iconeAltera);
-        pacienteDiv.appendChild(iconeLixo);
-        pacienteDiv.appendChild(pacienteNome);
-
-        listaPacientesContainer.appendChild(pacienteDiv);
+    // Usar um Set para armazenar nomes únicos
+    const nomesUnicos = new Set();
+    const funcionariosUnicos = funcionarios.filter(f => {
+        if (nomesUnicos.has(f.nome)) {
+            return false; // Se o nome já estiver no Set, filtrar o item
+        }
+        nomesUnicos.add(f.nome); // Adicionar o nome ao Set
+        return true; // Caso contrário, manter o item
     });
+
+    // Limpar o conteúdo atual
+    lista.innerHTML = '';
+
+    // Adicionar funcionários únicos
+    lista.innerHTML = funcionariosUnicos.map((f, index) => `
+        <div id="item-${index}" class="ListaPacientes">
+            <img id="iconelataLixo" onclick="redirecionarParaCadastrarFuncionario()" src="Imagens/altera.png"/>
+            <img id="iconealterar" onclick="remover(event)" src="Imagens/cone-de-lata-de-lixo-plana.webp"/>
+            <p>${f.nome}</p>
+        </div>
+    `).join('');
 }
 
-// Carregar pacientes quando a página é carregada
-window.onload = function() {
-    carregarPacientes();
-};
+function redirecionarParaCadastrarFuncionario() {
+    window.location.href = 'CadastrarFuncionario.html';
+}
+
+window.onload = exibirFuncionarios;
+
 
